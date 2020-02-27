@@ -44,3 +44,26 @@ growth.plot <- ggplot(aes(x = age, y = estimate,
                           color = measure),
                       data = dev.tibble.long) +
   geom_point(size = 4)
+
+input.knowledge.plot <- ggplot(aes(x = input.rate, y = knowledge),
+                      data = dev.tibble) +
+  geom_point(size = 4)
+
+# input.age.knowledge.plot <- ggplot(aes(x = input.rate, y = age, size = knowledge),
+#                       data = dev.tibble) +
+#   geom_point()
+
+input.age.knowledge.plot <- ggplot(aes(x = input.rate, y = knowledge,
+                                        color = age, alpha = age, size = age),
+                      data = dev.tibble) +
+  geom_point()
+
+dev.tibble$age.sq <- dev.tibble$age^2
+# input.agesq.knowledge.plot <- ggplot(aes(x = input.rate, y = age.sq, size = knowledge),
+#                       data = dev.tibble) +
+#   geom_point()
+
+input.agesq.knowledge.plot <- ggplot(aes(x = input.rate, y = knowledge,
+                                        color = age.sq, alpha = age.sq, size = age.sq),
+                      data = dev.tibble) +
+  geom_point()
