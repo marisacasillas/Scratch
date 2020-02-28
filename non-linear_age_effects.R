@@ -38,16 +38,31 @@ for (i in 2:nrow(dev.tibble)) {
 }
 
 dev.tibble.long <- dev.tibble %>%
-  gather("measure", "estimate", -age)
+  gather("measure", "estimate", -age) %>%
+  mutate(estimate.logged = log(estimate))
 
 growth.plot <- ggplot(aes(x = age, y = estimate,
                           color = measure),
                       data = dev.tibble.long) +
   geom_point(size = 4)
 
+growth.plot.log <- ggplot(aes(x = age, y = estimate.logged,
+  color = measure),
+  data = dev.tibble.long) +
+  geom_point(size = 4)
+
+
 input.knowledge.plot <- ggplot(aes(x = input.rate, y = knowledge),
                       data = dev.tibble) +
-  geom_point(size = 4)
+  geom_point(size = 4) +
+  geom_smooth(method = "lm")
+
+dev.tibble$input.rate.sq <- dev.tibble$input.rate^2
+input.knowledge.plot <- ggplot(aes(x = input.rate.sq, y = knowledge),
+  data = dev.tibble) +
+  geom_point(size = 4) +
+  geom_smooth(formula = y ~ log(x))
+
 
 # input.age.knowledge.plot <- ggplot(aes(x = input.rate, y = age, size = knowledge),
 #                       data = dev.tibble) +
@@ -67,3 +82,26 @@ input.agesq.knowledge.plot <- ggplot(aes(x = input.rate, y = knowledge,
                                         color = age.sq, alpha = age.sq, size = age.sq),
                       data = dev.tibble) +
   geom_point()
+
+
+# models
+
+model1 <- lm(knowledge ~ age * input.rate, data = dev.tibble)
+summary(model1)
+plot(model1)
+
+model2 <- lm(knowledge ~ age.sq * input.rate, data = dev.tibble)
+summary(model2)
+plot(model2)
+
+anova(model1, model2)
+
+model1.log <- lm(knowledge ~ age * input.rate.log, data = dev.tibble)
+summary(model1.log)
+plot(model1.log)
+
+model2.log <- lm(knowledge ~ age.sq * input.rate.log, data = dev.tibble)
+summary(model2.log)
+plot(model2.log)
+
+anova(model1, model2)
