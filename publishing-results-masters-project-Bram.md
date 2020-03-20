@@ -51,7 +51,7 @@ If you is unable to sustain these conditions, your contribution will be acknowle
 
 Bram will attempt to write his Radboud Masters thesis as a journal article, with the goal of submitting it for review by September 2020 (e.g., to Language Development Research or Journal of Child Language). If he takes primary responsibility for writing and makes some intellectual contributions to the work, he will serve as the first author of the submitted work. If he is unable to achieve both of these aims, he will instead be expected to write up his findings in a traditional masters thesis format, and Marisa will publish the work on her own after the thesis is complete.
 
-**The latest possible journal submission date for Bram is end of January 2020.** After that date, Marisa will take over publication of the project, acknowledging Bram's work as a non-author contribution. These terms can be negotiated again later in 2020, if needed.
+**The latest possible journal submission date for Bram is end of January 2021.** After that date, Marisa will take over publication of the project, acknowledging Bram's work as a non-author contribution. These terms can be negotiated again later in 2020, if needed.
 
 During Bram's thesis period, it is Marisa and Paula's responsibility to provide guidance about staying on-track with annotation, analysis, and writing goals. It is also their responsibility to ensure that Bram has an opportunity to make intellectual contributions. It is Bram's responsibility to follow through on these guidelines and to produce high quality work in a timely manner.
 
