@@ -7,6 +7,7 @@ The purpose of this document is to establish guidelines that will help you, the 
 Academic supervisors are expected to:
 
 - provide clear guidelines about what work needs to be done, how, and to what standard
+- make sure the student develops a realistic work plan for the planned project period
 - check in frequently to ensure that the project is on track and, if not, to adapt the work plan accordingly
 - provide necessary access to tools, readings, and learning experiences in a timely manner
 - plan the work such that the student has true opportunities to learn about the research process
