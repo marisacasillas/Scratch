@@ -1,0 +1,27 @@
+This study compares the development of temporal features of spontaneous sequential vocalization in Bengalese finches and human infants. The temporal measures include: the duration of notes, the time elapsed between note onsets, and the inter-note interval. The analysis assesses whether these features demonstrate similar developmental trajectories across species. While note duration and inter-note interval converge in duration over developmental time, the finches achieve this convergence by shortening their notes while the infants achieve it by lengthening theirs. These findings are linked to differences in the respiratory systems of birds and humans that could lead to a mirrored pattern of convergence between species.
+
+In principle I like the idea of this comparison and I appreciate the general approach: i.e., hypothesizing developmental differences in early vocalization patterns that derive from differences in the respiratory systems while also expecting cross-species similarity in the need to gain respiratory control before more sophisticated vocalization types appear.
+
+That said, I was uncertain how the three temporal measures analyzed here relate to respiratory control specifically and not, e.g., overall changes in vocalization quality that may accompany increases in respiratory control. In the introduction, the authors explain the relevance of breath control for birds by mentioning the initial lack of alignment between expiration offsets and note offsets---in the described study, it is clear how the measure relates to the acquisition of respiratory control. In contrast, the three temporal measures included in the current study are not so clearly related to respiratory control, and don't appear to be linked to any specific predictions about the development of this skill with one species's respiration system vs. the other's. I see why the measures are practical to use (they are all easily derived from acoustic data), but it is not clear to me how they get at the core theoretical question of the paper. Specifically I'd like to see evidence that these measures relate to respiration and respiratory control in both species---otherwise it's quite hard to justify the comparison.
+
+Relatedly, I worry about the applicability of these simple temporal measures as the infants in each species get older. Specifically, the measures appear based on the idea of notes as the building block for sequences, whereas syllables (and syllabic nuclei) are the building block for sequences in human speech. I am having a hard time conceiving of how these species-specific properties of more mature vocalizations is predicted to influence the trajectory of note duration, etc. Part of my lack of understanding may derive from the fact that expectations for what the adult-like "target" should be for each species are not established. For example, though I am not completely sure what constituted a sequential vocalization in this study, I wouldn't guess that equal durations for notes and inter-note silences is the norm for a semi-continuous spans of human speech; in sum, how is the convergence meant to be understood with respect to the increase in more sophisticated vocalizations? The authors briefly mention that the breakpoints occur around developmental time points when infants of each species begin to produce more sophisticated vocalizations. But this link seems tenuous unless they can show that, e.g., canonical babble in infants results in similar note durations and inter-note intervals.
+
+In sum, my major concern is that this approach does not enable us to say with adequate certainty what constitutes meaningful similarity/difference across these species, and so I take little from the findings.
+
+Could the authors please also:
+
+- Explain how they identified vocalizations as spontaneous sequences?
+
+- Explain why crying was only measured in very young infants? Note that crying is taken here as a vocalization humans get "for free", but it has acoustic features and interational consequences separate from speech-related vocalizations (e.g., Yoo et al., 2018 Frontiers; Pretzer et al., 2019, Infant Behavior and Development) and so it's unclear the extent to which it would be expected to follow the same developmental path---more detail here would be welcome.
+
+- Give more detail about the social and communicative context of the recordings; are these vocalizations purely in isolation?
+
+- Describe whether the vocalizers were in a semi- or fully-interactive state during any of the vocalizations and, if so, add more details on how this could influence the results (e.g., human caregivers and infants can get into feedback loops of speech-like vocalizations during interaction)?
+
+- Explain why they use a cumulative measure of development since this might mask the onset of actual developmental change (relevant to the validity of a break point in their analysis)?
+
+- Add a note that ND and IOI are expected to correlate since the latter is operationally partly dependent on the first?
+
+- Further justify the use of a breakpoint analysis (e.g., is non-linear development hypothesized in advance; this relates to my desire for more specific links to the respiratory control framing introduced in the introduction and discussion)?
+
+- Present the findings in a parallel results structure (e.g., ND for birds and infants, INI for birds and infants, IOI for birds and infants)?
