@@ -1,5 +1,5 @@
 \usepackage{fontspec}
-\usepackage[BasicLatin, IPAExtensions, CombiningDiacriticalMarks, SpacingModifierLetters]{ucharclasses}
+\usepackage[GreekAndCoptic, BasicLatin, PhoneticExtensions, IPAExtensions, CombiningDiacriticalMarks, SpacingModifierLetters]{ucharclasses}
 
 %% Pandoc can only set 10, 11, 12 pt
 %% uncomment below to set fontsize
@@ -21,6 +21,8 @@
 
 \setTransitionTo{BasicLatin}{\normalfont}
 %\setDefaultTransitions{\defaultfont}{}
+\setTransitionTo{GreekAndCoptic}{\ipa}
+\setTransitionTo{PhoneticExtensions}{\ipa}
 \setTransitionTo{IPAExtensions}{\ipa}
 \setTransitionTo{CombiningDiacriticalMarks}{\ipa}
 \setTransitionTo{SpacingModifierLetters}{\ipa}
