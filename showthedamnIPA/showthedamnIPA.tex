@@ -1,0 +1,151 @@
+\documentclass[english,,man,floatsintext]{apa6}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdftitle={Non-word repetition in Yélî Dnye},
+            pdfauthor={Alejandrina Cristia~\& Marisa Casillas},
+            pdfkeywords={phonology, non-word repetition, development},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,main=english]{babel}
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[]{english}
+\fi
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{fontspec}
+
+\setmainfont{Doulos SIL} % Set main font to Doulos SIL
+
+\title{Non-word repetition in Yélî Dnye}
+\author{Alejandrina Cristia\textsuperscript{1}~\& Marisa
+Casillas\textsuperscript{2}}
+\date{}
+
+\authornote{All data are made available in a repository in the
+Open Science Framework. AC acknowledges the support of the Agence
+Nationale de la Recherche (ANR-17-CE28-0007 LangAge, ANR-16-DATA-0004,
+ANR-14-CE30-0003, ANR-17-EURE-0017); and the J. S. McDonnell Foundation
+Understanding Human Cognition Scholar Award.
+
+Correspondence concerning this article should be addressed to
+Alejandrina Cristia, 29, rue d'Ulm, 75005 Paris, France. E-mail:
+\href{mailto:alecristia@gmail.com}{\nolinkurl{alecristia@gmail.com}}}
+
+\abstract{
+In nonword repetition (NWR) studies, participants are presented
+auditorily with an item that is phonologically legal but lexically
+meaningless in the local language. Accuracy is thought to reflect
+long-term phonological knowledge as well as online phonological working
+memory and flexible production patterns.In this study, we report on NWR
+results among children learning Yêly Dnyé, an isolate spoken in Rossel
+Island, PNG, with an unusually dense phonological inventory. This study
+contributes to three lines of research. First, we document that non-word
+items containing typologically rare sounds are repeated accurately less
+often that non-words containing more common sounds. Second, we document
+rather weak effects of item length, contributing to other research
+suggesting that length effects may be language-specific. Third, we do
+not find strong individual variation effects in this population,
+contrary to previous results documenting strong age-related effects.
+Together, these data provide a unique view of online phonological
+processing in a seldom-studied language, and contribute to both
+typological and language acquisition research.
+
+
+}
+
+\begin{document}
+\maketitle
+
+The Yélî sound system, much like its baroque grammatical system in
+general {[}STEVE\_GRAMMAR\_REF{]}, is unlike any other in the region,
+with 90 contrastive segments, including at least two contrasts not yet
+been documented elsewhere (labial-coronal double-articulations with
+dental vs.~post-alveolar coronal placement in both oral and nasal stops)
+{[}STEVE\_GRAMMAR\_REF{]}. With only four primary places of articulation
+(bilabial, alveolar, post-alveolar, and velar) and no voicing contrasts,
+the phonological inventory is remarkably packed with acoustically
+similar segments. The core oral stop set includes both singleton (/p/,
+/t/, /ṭ/, and /k/) and doubly-articulated (/tp/, /ṭp/, /kp/) segments,
+with full nasal equivalents (/m/, /n/, /ṇ/, /ŋ/, /nm/, /ṇm/, /ŋm/), and
+with a substantial portion of these able to be pre-nasalized or nasally
+released (/mp/, /nt/, /ṇṭ/, /ŋk/, /nmtp/, /ṇmṭp/, /ŋmkp/, /ṭṇ/, /kŋ/,
+/ṭpṇm/, /kpŋm/). Finally, a number of these can also be labialized or
+palatalized on the release, or both (/pʲ/, /tʃ/, /tpʲ/, /ṭʲ/, /ṭpʲ/,
+/kʲ/, /kpʲ/, /pʲʷ/, /mbʲ/, /ndʒ/, /nmdbʲ/, /ṇḍʲ/, /ṇmḍbʲ/, /mbʷ/, /ŋɡʷ/,
+/mbʲʷ/, /ṭṇʲ/, /ṭpṇmʲ/, /kŋʷ/, /mʲ/, /nʲ/, /nmʲ/, /ṇʲ/, /ṇmʲ/, /mʷ/,
+/ŋʷ/, mʲʷ/). Among the remaining consonants are small group of oral
+continuants (/w/, /j/, /ɣ/, /l/, /βʲ/, /lʲ/, /lβʲ/). Vowels in Yélî Dnye
+may be oral or nasal, short or long. The 10 oral vowel qualities (/i/,
+/ɯ/, /u/, /e/, /o/, /ə/, /ɛ/, /ɔ/, /æ/, /ɑ/) can be produced as short or
+long vowels, with 7 of these able to appear as short and long nasal
+vowels as well (/i/, /u/, /ə/, /ɛ/, /ɔ/, /æ/, /ɑ/). In total, Levinson
+{[}STEVE\_GRAMMAR\_REF{]} then counts 90 distinctive segments in Yélî
+Dnye (93 when including consonants that are extremely rarely used).
+
+TESXwdfkh ɔ TESdfkjah grwerg /kʲ/, /kpʲ/, /pʲʷ/, /mbʲ/, /ndʒ/, /nmdbʲ/,
+/ṇḍʲ/, /ṇmḍbʲ/, /mbʷ/, /ŋɡʷ/, /mbʲʷ/, /ṭṇʲ/, /ṭpṇmʲ/, /kŋʷ/, /mʲ/, /nʲ/,
+/nmʲ/, /ṇʲ/, /ṇmʲ/, /mʷ/, /ŋʷ/, mʲʷ/). Among the remaining consonants
+are small group of oral continuants (/w/, /j/, /ɣ/, /l/, /βʲ/, /lʲ/,
+/lβʲ/) sdgfdfg
+
+\setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in}
+
+\end{document}
